@@ -66,7 +66,7 @@ export default function Home(props) {
             LINE Developers Console
           </a>
 
-          <a href="mailto:teramoto.takeru.s9k@jp.nssol.nipponsteel.com?subject=問合せ件名?body=本文のテキスト">問合せ</a>
+          <a href="mailto:teramoto.takeru.s9k@jp.nssol.nipponsteel.com?subject=問合せ件名&body=本文のテキスト">問合せ</a>
 
         </div>
       </div>
