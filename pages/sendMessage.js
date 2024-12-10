@@ -1,6 +1,6 @@
 import liff from "@line/liff";
 
-async function sendMessage() {
+export async function sendMessage() {
   if (liff.isInClient()) {
     await liff.sendMessages([
       {
