@@ -1,6 +1,5 @@
 import Head from "next/head";
 import packageJson from "../package.json";
-import { sendMessage } from './sendMessage';
 
 export default function Home(props) {
   /** You can access to liff and liffError object through the props.
@@ -65,13 +64,6 @@ export default function Home(props) {
             className="home__buttons__button button--secondary"
           >
             LINE Developers Console
-          </a>
-
-          <a 
-            href="#"
-            onClick={sendMessage}
-          >
-            Send Message
           </a>
         </div>
       </div>
