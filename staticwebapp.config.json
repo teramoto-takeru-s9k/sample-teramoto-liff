@@ -1,0 +1,7 @@
+{
+  "networking": {
+      "allowedIpRanges": [
+          "113.33.89.171/32"
+      ]
+  }
+}
